@@ -1,0 +1,62 @@
+.qtr-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(62, 86, 97);
+
+}
+
+.qtr-flexContainer {
+  display: flex;
+  align-items: center;
+  font-size: 100px;
+}
+
+.qtr-code {
+  width: 40%;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.qtr-answer {
+	font-size: 20px;
+	color: rgb(29, 65, 82);
+	outline: none;
+	padding: 24px 16px;
+	border: 2px solid  rgb(29, 65, 82);
+  }  
+
+.qtr-button {
+  width: 300px;
+  font-size: 48px;
+  background-color: transparent;
+  color: rgb(42, 59, 85);
+  border: 5px solid rgb(42, 59, 85);
+  margin-top: 24px;
+}
+
+.qtr-dd {
+	color: white;
+	position: absolute;
+	left: 24px;
+	top: 40vh;
+	font-size: 60px;
+}
+
+@media screen and (max-width: 720px) {
+    .qtr-code {
+		width: 85%;
+		font-size: 20px;
+	}
+	.qtr-answer {
+		font-size: 20px;
+		width: 100%;
+	}
+	.qtr-dd {
+		font-size: 24px;
+	}
+}

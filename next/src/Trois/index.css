@@ -1,0 +1,38 @@
+.trs-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #E65100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #FFB300;
+}
+
+.trs-code {
+  width: 70%;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.trs-input {
+  height: 50px;
+  font-size: 24px;
+  outline: none;
+  color: #F57C00;
+}
+
+.trs-button {
+  width: 300px;
+  font-size: 48px;
+  background-color: transparent;
+  color: #FFE0B2;
+  border: 5px solid #FFE0B2;
+  margin-top: 24px;
+}
+
+.trs-resContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
